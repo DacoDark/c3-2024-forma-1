@@ -24,6 +24,7 @@ exports.getCitiesByCountryUseCase = (ctx) => {
         ctx.body = cities;
     }
     return ctx
+    
 }
 
 exports.getCitiesByCityNameAndCountryUseCase = (ctx) => {
