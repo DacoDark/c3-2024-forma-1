@@ -77,7 +77,6 @@ describe('GET /api/cities/by_country/:country', () => {
         
         const response = await request(app.callback()).get(`/api/cities/by_country/${country}`)
         
-
         // Validacion para status 400
         expect(response.status).toBe(400);
     
